@@ -5,10 +5,10 @@ import { FaUserAlt, FaNutritionix } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const dashboardItems = [
-  { name: "dashboard", link: "/", icon: <MdDashboard /> },
-  { name: "diary", link: "/diary", icon: <GiNotebook /> },
-  { name: "nutrition", link: "/nutrition", icon: <FaNutritionix /> },
-  { name: "profile", link: "/profile", icon: <FaUserAlt /> },
+  { name: "Dashboard", link: "/", icon: <MdDashboard /> },
+  { name: "Food Log", link: "/diary", icon: <GiNotebook /> },
+  { name: "Nutrition", link: "/nutrition", icon: <FaNutritionix /> },
+  { name: "Profile", link: "/profile", icon: <FaUserAlt /> },
 ];
 
 const DashboardNav = () => {
