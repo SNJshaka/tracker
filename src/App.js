@@ -14,7 +14,7 @@ import EditMeal from "./pages/EditMeal";
 
 function App() {
   return (
-    <div className="h-screen text-white bg-gradient-to-r from-[#0c2311] via-[#054c14] to-[#063008] 2xl:text-3xl 3xl:text-4xl overflow-y-hidden">
+    <div className="h-screen text-white bg-[#1A3F26] 2xl:text-3xl 3xl:text-4xl overflow-y-hidden">
       <div className="w-[400px] 2xl:w-[600px] 3xl:w-[800px] mx-auto h-full bg-primary">
         <Routes>
           <Route path="info" element={<Info />} />
