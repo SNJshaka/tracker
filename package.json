@@ -1,6 +1,6 @@
 {
-  "name": "caluri",
-  "version": "0.1.0",
+  "name": "calorie-tracker",
+  "version": "1.0",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
