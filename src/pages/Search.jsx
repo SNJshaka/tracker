@@ -17,7 +17,7 @@ const Search = () => {
         Search Results
       </h2>
 
-      <div className="space-y-3 h-[calc(100vh-220px)] 2xl:h-[700px] 3xl:h-[900px] overflow-y-scroll flex flex-col">
+      <div className="space-y-3 h-[calc(100vh-220px)] 2xl:h-[700px] 3xl:h-[900px]  flex flex-col">
         {isLoading ? (
           <Loader />
         ) : (
