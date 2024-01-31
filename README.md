@@ -1,7 +1,7 @@
-          # tracker
+# tracker
 
 ##########################
-          # steps
+# steps
 #clone github repo
 #cd tracker
 #run "npm install create-my-app"
