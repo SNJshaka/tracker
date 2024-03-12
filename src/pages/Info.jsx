@@ -212,7 +212,10 @@ const Info = () => {
                 className="p-2 outline-none text-black rounded-md"
                 ref={activityRef}
               >
-                <option value=""> how active are you?</option>
+                <option value="" hidden>
+                  {" "}
+                  how active are you?
+                </option>
                 <option value="1.2"> little or no exercise </option>
                 <option value="1.375"> Light: exercise 1-3 times weekly</option>
                 <option value="1.55">

@@ -14,9 +14,10 @@ import EditMeal from "./pages/EditMeal";
 
 function App() {
   return (
-    <div className="h-screen text-white bg-[#1A3F26] 2xl:text-3xl 3xl:text-4xl overflow-y-hidden">
+    <div className="h-screen text-white bg-primary 2xl:text-3xl 3xl:text-4xl overflow-y-hidden">
       <div className="w-[600px] 2xl:w-[800px] 3xl:w-[1000px] mx-auto h-full bg-primary">
         <Routes>
+          <Route path="credentials" element={<signup />} />
           <Route path="info" element={<Info />} />
           <Route path="/" element={<Home />}>
             <Route index element={<Dashboard />} />

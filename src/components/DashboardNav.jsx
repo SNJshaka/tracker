@@ -12,7 +12,7 @@ const dashboardItems = [
 ];
 
 const DashboardNav = () => {
-  const dashboardBoxClasses = `bg-red-500 p-2 mb-2 rounded-lg shadow-lg shadow-red-500/30 justify-center flex gap-6`;
+  const dashboardBoxClasses = `bg-[#001b37] p-4 pt-8 mb-2 rounded-lg shadow-lg shadow-black-500/30 justify-center flex gap-6`;
   const linkTextClasses = `text-xs 2xl:text-lg 3xl:text-2xl capitalize`;
   const iconsClasses =
     "group-hover:-translate-y-1.5 duration-200 text-xl 2xl:text-3xl";
